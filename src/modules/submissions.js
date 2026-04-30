@@ -37,6 +37,7 @@
 		this.resetVariables();
 	};
 
+	//
 	/**
 	 * Resets variables and lists related to the submission state
 	 */
