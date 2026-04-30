@@ -2337,6 +2337,11 @@
 
 				newText.updateCategories( data.newCategories );
 
+				// Add {{Improve categories}} if requested
+				if ( data.improveCategories ) {
+					newText.prepend( '{{Improve categories}}\n' );
+				}
+
 				newText.updateShortDescription( data.existingShortDescription, data.shortDescription );
 
 				// Clean the page
